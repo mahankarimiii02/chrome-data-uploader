@@ -1,0 +1,5 @@
+github
+json
+base64
+win32crypt
+os
