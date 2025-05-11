@@ -7,10 +7,10 @@ This is a simple python tool that :
 
 # questions 
 1. so what is this used for?
-  - can be used for pentest and osint stuff 
+    - can be used for pentest and osint stuff 
 2. how can we decrypt the Login Data file(s) using secret key?
-  - https://github.com/kiryano/chrome-password-decryptor
-  - https://github.com/ohyicong/decrypt-chrome-passwords
+    - https://github.com/kiryano/chrome-password-decryptor
+    - https://github.com/ohyicong/decrypt-chrome-passwords
 3. why .py file and not an .exe file?
   - anyone has the right to see the clean code
   - anyone do the obfuscation in a different way ... so do it yourself ;)
