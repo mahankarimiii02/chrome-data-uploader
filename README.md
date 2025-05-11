@@ -13,4 +13,16 @@ This is a simple python tool that :
     - anyone has the right to see the clean code
     - anyone do the obfuscation in a different way ... so do it yourself ;)
     - as i have to mention i tried the exe version (using pyinstaller) with no obfuscation and both windows defender and kaspersky didn't detect that as a malware
-   
+
+
+# Instalation 
+1. at first make sure to have a github account and also a repo
+2. go to downloaded path and type in terminal : 
+```bash  
+pip install -r requirements.txt
+```
+3. open ```chrome-to-github-uploader.py``` and put your github apikey, username, repo name, then save it 
+4. to run the file :
+```bash
+python ./chrome-to-github-uploader.py
+```
