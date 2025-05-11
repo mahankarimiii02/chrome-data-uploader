@@ -20,10 +20,10 @@ This is a simple python tool that :
 ```bash  
 pip install -r requirements.txt
 ```
-3. Open ```chrome-to-github-uploader.py```, input your GitHub API key, username, and repository name, then save the file.
+3. Open ```main.py```, input your GitHub API key, username, and repository name, then save the file.
 4. Run the script:
 ```bash
-python ./chrome-to-github-uploader.py
+python ./main.py
 ```
 # Warning 
 This tool is intended for educational purposes. Any misuse is beyond my responsibility.
